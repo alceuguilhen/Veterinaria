@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #daac00;
+    --cor2: #fcc302;
+    --cor3: #00bec9;
+    --cor4: #0099a1;
+    --cor5: #343434;
+
+    --font01: 'Poppins', 'sans-serif';
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    menu#itens > ul > li {
+        display: inline-block;
+    }
+
+    menu#itens > ul > li > a {
+        margin: 0px 40px;
+        background-color: var(--cor1);
+        border: none;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    menu#itens > ul > li {
+        display: inline-block;
+    }
+
+    menu#itens > ul > li > a {
+        margin: 0px 40px;
+        background-color: var(--cor1);
+        border: none;
+    }
+
+    section.home {
+        display: inline-block;
+        padding: 40px 0px;
+    }
+
+    section.home > div#home {
+        float: left;
+        width: 50%;
+        padding-left: 100px;
+        padding-top: 130px;
+    }
+
+    section.home > div#dog {
+        display: block;
+        float: right;
+        background: url('../img/cachorro.png') no-repeat;
+        background-size: cover;
+        width: 419px;
+        height: 604px;
+        margin-right: 100px;
+    }
+
+    section.home > div#home > h1 {
+        font-size: 3em;
+    }
+
+    section.sobre {
+        display: inline-block;
+        padding: 70px 0px;
+    }
+
+    section.sobre > div#sobre {
+        float: left;
+        width: 50%;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+    section.sobre > div#pastor {
+        float: right;
+        width: 450px;
+        height: 450px;
+        margin-top: 0px;
+        margin-right: 100px;
+    }
+
+    section#serviço {
+        padding: 70px 0px;
+    }
+
+    section#serviço > h2 {
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 0px;
+    }
+
+    section#serviço > p {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+     article#clinica, article#vacina, article#odonto {
+        display: inline-block;
+        width: 200px;
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+
+    article#vacina > div.vacina, article#odonto > div.odonto {
+        margin-top: 0px;
+    }
+
+    aside {
+        display: block;
+        margin: auto;
+        padding: 70px 0px;
+    }
+
+    div#lista {
+        display: inline-block;
+        text-align: left;
+    }
+
+    div#lista > div.lista {
+        display: inline-block;
+        padding-right: 100px;   
+        padding-bottom: 0px;     
+    }
+
+    div#redes > h2 {
+        text-align: right;
+    }
+
+    div#redes {
+        display: inline-block;
+        text-align: right;
+        padding: 0px;
+    }
+
+    div#redes > ul > li {
+        display: inline;
+        padding-right: 0px;
+    }
+}

@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #daac00;
+    --cor2: #fcc302;
+    --cor3: #00bec9;
+    --cor4: #0099a1;
+    --cor5: #343434;
+
+    --font01: 'Poppins', 'sans-serif';
+}
+
+* {
+    font-family: var(--font01);
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: var(--cor1);
+}
+
+div#logo {
+    width: 212px;
+    height: 56px;
+    margin: auto;
+    padding:30px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span#burguer {
+    display: block;
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: var(--cor5);
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu#itens > ul > li > a {
+    display: block;
+    background-color: var(--cor3);
+    text-align: center;
+    border-top:2px solid var(--cor4);
+    padding: 10px;
+}
+
+menu#itens > ul > li > a:hover {
+    background-color: var(--cor4);
+}
+
+section.home {
+    background-color: var(--cor2);
+    padding: 70px 40px;
+}
+
+section.home > div#home {
+    display: block;
+}
+
+section.home > div#dog {
+    display: none;
+}
+
+div#home > h1 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.home > div#home > p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+section.home > div#home > #botao > .botao {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.home > div#home > #botao > .botao:hover {
+    background-color: var(--cor4);
+}
+
+section.sobre {
+    padding: 70px 40px;
+}
+
+section.sobre > div#sobre {
+    display: block;
+}
+
+section.sobre > div#sobre > h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section.sobre > div#sobre > p {
+    margin: 30px 0px;
+}
+
+section.sobre > div#sobre > a {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.sobre > div#sobre > a:hover {
+    background-color: var(--cor4);
+}
+
+section.sobre > div#pastor {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 410px;
+    height: 410px;
+    background: var(--cor4) url('../img/pastor.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+section#serviço {
+    background-color: var(--cor2);
+    padding: 70px 40px;
+}
+
+section#serviço > h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#serviço > p {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+div#conteiner {
+    text-align: center;
+    color: white;
+}
+
+.clinica {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    background: var(--cor4) url('../img/serviço01.jpg') no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.vacina {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: var(--cor4) url('../img/serviço02.jpg') no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.odonto {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: var(--cor4) url('../img/serviço03.jpg') no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+aside {
+    background-color: var(--cor5);
+    padding: 70px 40px;
+    text-align: center;
+    color: white;
+}
+
+div#lista > div.lista {
+    display: block;
+    padding-bottom: 30px;
+}
+
+div#redes > h2 {
+    margin-bottom: 10px;
+}
+
+div#redes {
+    display: block;
+    padding: 10px;
+}
+
+div#redes > ul > li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

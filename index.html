@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetLife</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <section class="home"> <!-- HOME -->
+            <div id="dog">
+                <!--IMAGEM-->
+            </div>
+            <div id="home">
+                <h1>
+                    Nós somos veterinários e amamos animais
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti fuga molestias enim inventore quae autem veniam
+                    numquam vel aliquid voluptatum ut, corporis impedit
+                    quidem voluptas ullam fugiat ipsum magnam veritatis!
+                </p>
+                <div id="botao">
+                    <a href="#" class="botao">Contato</a>
+                    <a href="#" class="botao">Outros serviços</a>
+                </div>
+            </div>
+        </section>
+        <section class="sobre"> <!-- SOBRE -->
+            <div id="sobre">
+                <h2>
+                    Seu pet
+                    nas melhores mãos
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum consectetur aut voluptatibus, inventore possimus cumque nobis eligendi corporis cupiditate excepturi laborum libero blanditiis natus repudiandae. Laboriosam, quam. Non, deserunt.
+                </p>
+                <a href="#">Outros serviços</a>
+            </div>
+            <div id="pastor">
+                <!--IMAGEM-->
+            </div>
+        </section>
+        <section id="serviço"> <!-- SERVIÇOS -->
+            <h2>
+                Nossos serviços
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur modi officiis rerum doloribus.
+            </p>
+            <div id="conteiner">
+                <article id="clinica">
+                    <div class="clinica">
+                        <!--IMAGEM-->
+                    </div>
+                    <div class="texto">
+                        <p>
+                            <strong>Clínica</strong> <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci quo molestias sapiente.
+                        </p>
+                    </div>
+                </article>
+                <article id="vacina">
+                    <div class="vacina">
+                        <!--IMAGEM-->
+                    </div>
+                    <div class="texto">
+                        <p>
+                            <strong>Vacinas</strong> <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci quo molestias sapiente.
+                        </p>
+                    </div>
+                </article>
+                <article id="odonto">
+                    <div class="odonto">
+                        <!--IMAGEM-->
+                    </div>
+                    <div class="texto">
+                        <p>
+                            <strong>Odontologia</strong> <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci quo molestias sapiente.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <aside> <!-- FINAL -->
+            <div id="lista">
+                <div class="lista">
+                    <h2>Sobre</h2>
+                    <ul>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Nosso Time</a></li>
+                        <li><a href="#">Guias</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="lista">
+                    <h2>Serviços</h2>
+                    <ul>
+                        <li><a href="#">Clínica</a></li>
+                        <li><a href="#">Vacinas</a></li>
+                        <li><a href="#">Odontologia</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Método de pagamento</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="redes">
+                <h2>Siga a gente</h2>
+                <ul>
+                    <li><a href="#"><img src="img/insta.png" alt="insta"></a></li>
+                    <li><a href="#"><img src="img/face.png" alt="face"></a></li>
+                    <li><a href="#"><img src="img/tweeter.png" alt="tweeter"></a></li>
+                    <li><a href="#"><img src="img/whats.png" alt="whats"></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>
+            Site desenvolvido por <strong>Alceu Guilhen</strong>
+        </p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'   
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
