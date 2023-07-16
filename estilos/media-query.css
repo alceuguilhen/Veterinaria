@@ -10,28 +10,7 @@
     --font01: 'Poppins', 'sans-serif';
 }
 
-@media screen and (min-width: 768px) {
-    span#burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-        text-align: center;
-    }
-
-    menu#itens > ul > li {
-        display: inline-block;
-    }
-
-    menu#itens > ul > li > a {
-        margin: 0px 40px;
-        background-color: var(--cor1);
-        border: none;
-    }
-}
-
-@media screen and (min-width: 998px) {
+@media screen and (min-width: 1024px) {
     span#burguer {
         display: none;
     }
@@ -60,7 +39,7 @@
         float: left;
         width: 50%;
         padding-left: 100px;
-        padding-top: 130px;
+        padding-top: 90px;
     }
 
     section.home > div#dog {
@@ -68,8 +47,8 @@
         float: right;
         background: url('../img/cachorro.png') no-repeat;
         background-size: cover;
-        width: 419px;
-        height: 604px;
+        width: 350px;
+        height: 504px;
         margin-right: 100px;
     }
 
@@ -85,14 +64,14 @@
     section.sobre > div#sobre {
         float: left;
         width: 50%;
-        padding-top: 100px;
+        padding-top: 30px;
         padding-left: 100px;
     }
 
     section.sobre > div#pastor {
         float: right;
-        width: 450px;
-        height: 450px;
+        width: 400px;
+        height: 400px;
         margin-top: 0px;
         margin-right: 100px;
     }
@@ -101,10 +80,10 @@
         padding: 70px 0px;
     }
 
-    section#serviço > h2 {
-        text-align: center;
+    section.sobre > div#sobre > h2 {
+        text-align: left;
         font-size: 3em;
-        margin-bottom: 0px;
+        margin-bottom: -10px;
     }
 
     section#serviço > p {
