@@ -10,6 +10,12 @@
     --font01: 'Poppins', 'sans-serif';
 }
 
+@media screen and (min-width: 600px) {
+    html {
+        height: 100vh;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     span#burguer {
         display: none;
@@ -84,6 +90,10 @@
         text-align: left;
         font-size: 3em;
         margin-bottom: -10px;
+    }
+    
+    section#serviço > h2 {
+        font-size: 3em;
     }
 
     section#serviço > p {
