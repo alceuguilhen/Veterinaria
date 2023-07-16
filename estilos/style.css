@@ -141,8 +141,8 @@ section.sobre > div#pastor {
     display: block;
     margin: auto;
     margin-top: 30px;
-    width: 410px;
-    height: 410px;
+    width: 350px;
+    height: 350px;
     background: var(--cor4) url('../img/pastor.jpg') no-repeat;
     background-size: cover;
     border-radius: 20px;
